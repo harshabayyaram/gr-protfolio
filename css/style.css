@@ -1,0 +1,213 @@
+/* for total body */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: white;
+}
+
+/* navbar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 67px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 11px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+
+header {
+  background-color: rgb(191 184 255);
+  position:fixed;
+  top:0;
+  width: 100%;
+}
+
+.left {
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.line {
+  color: black;
+}
+
+/* main */
+
+/* sectio with image adn text side by side  */
+
+.firstsection {
+  display: flex;
+  justify-content: left;
+  /* color: black; */
+}
+
+.leftsection {
+  width: 40%;
+  height: 460px;
+}
+
+.firstsection div img {
+  width: 70%;
+  height: 100%;
+}
+
+.rightsection {
+  margin: 146px -55px;
+}
+
+.rigth-section-heading {
+  color: rgb(0, 0, 255);
+  font-size: 45px;
+  margin: 10px 20px;
+}
+
+.rigth-section-data {
+  color: rgb(98, 98, 234);
+  margin: 10px 20px;
+}
+
+/* footer */
+
+.footer {
+  background-color: rgb(79 54 194);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer footer-first {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+  padding: 10px;
+}
+
+/* copyright  */
+
+.copyright {
+  background-color: rgb(16 16 139);
+  color: rgb(123, 123, 123);
+  text-align: center;
+}
+
+
+
+/* about html */
+
+.education{
+  color: rgb(0, 0, 255);
+  font-size: 18px;
+    margin: -61px -29px;
+}
+
+.technical-skills{
+  color: rgb(0, 0, 255);
+  font-size: 18px;
+  margin: 61px -29px;
+}
+
+.soft-skills{
+  color: rgb(0, 0, 255);
+  font-size: 18px;
+  margin: -45px -29px;
+}
+
+.hobbies{
+  color: rgb(0, 0, 255);
+  font-size: 18px;
+  margin: 50px -29px;
+}
+
+.personal-details{
+  color: rgb(0, 0, 255);
+  font-size: 18px;
+  margin: -39px -29px;
+}
+.projects{
+  color: black;
+  padding-top: 100px;
+  margin: 20px;
+
+}
+.project-list{
+margin: 25px;
+/* padding-left: 40px; */
+/* padding: 50px; */
+border: 2px solid grey;
+display: flex;
+flex-direction: row;
+}
+
+.project-list img{
+  height: 140px;
+  width: 200px;
+  padding: 10px;
+}
+.project-list .project-details{
+color: blue;
+}
+
+.image-div{
+  width: 400px;
+}
+
+
+/* contact */
+
+
+.rightsection div ul{
+  list-style: none;
+}
+
+.rightsection div ul li{
+  color: blue;
+  padding: 12px;
+  height: 50px;
+}
+
+.rightsection div ul li img{
+  width: 37px;
+
+}
+.rightsection div ul li span a{
+  text-decoration: none;
+  color: blue;
+}
+
+.imgspan{
+  padding: 10px;
+}
+
+.textspan{
+  position: absolute;
+  margin-left: 21px;
+  margin-top: 12px;
+}
